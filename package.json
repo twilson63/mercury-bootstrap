@@ -1,0 +1,29 @@
+{
+  "name": "mercury-bootstrap",
+  "version": "1.0.0",
+  "description": "A collection bootstrap components in hyperscript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test"
+  },
+  "keywords": [
+    "Hyperscript",
+    "Virtual",
+    "Hyperscript",
+    "Mercury",
+    "FRP",
+    "Functional"
+  ],
+  "author": "Tom",
+  "license": "MIT",
+  "devDependencies": {
+    "hyperscript": "^1.4.2",
+    "tap": "^0.4.13"
+  },
+  "dependencies": {
+    "underscore": "^1.7.0"
+  }
+}
