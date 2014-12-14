@@ -9,6 +9,10 @@ test('bs#navbar', function(t) {
     bs.navbar({}, [
       h('.navbar-header', [
         h('a.navbar-brand', { href: '#'}, 'Brand')
+      ]),
+      bs.navitems([
+        h('a', {href: '/'}, 'Home'),
+        h('a', {href: '/about'}, 'About')
       ])
     ]).outerHTML,
     html('navbar'),
